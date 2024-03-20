@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import NavBar from './navbar'
 const BaseLayout = ({ children, pageTitle = 'My Website' }) => (
   <>
     <head>
@@ -11,41 +11,23 @@ const BaseLayout = ({ children, pageTitle = 'My Website' }) => (
       {/* Your custom CSS */}
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-      <link rel="stylesheet" href="static/css/style.css" />
+      <link rel="stylesheet" href="./style.css" />
+      <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
     </head>
 
     <body>
-      <nav className="navbar navbar-expand-lg navbar-dark custom-navbar">
-        <div className="container">
-          <a className="navbar-brand" href="#">Gabriel Mantione-Holmes</a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <Link to="/">Home</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/resume">Resume</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/portfolio">Portfolio</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/form">Contact</Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <NavBar/>
 
       <div className="container mt-4">
         {children}
       </div>
 
       <div className="social-icons-list">
-        {/* Social icons */}
+      <a href="https://github.com/gabrielTMH" target="_blank"><i class="fab fa-github socialicons"></i></a>
+            <a href="https://www.linkedin.com/in/gabriel-mantione-holmes-7720a5213/" target="_blank"><i class="fab fa-linkedin-in socialicons"></i></a>
+            <a href="https://www.tiktok.com/@gae_real" target="_blank"><i class="fab fa-tiktok socialicons"></i></a>
+            <a href="https://www.youtube.com/@wholefood3669" target="_blank"><i class="fab fa-youtube socialicons"></i></a>
       </div>
 
       {/* Bootstrap JavaScript */}
