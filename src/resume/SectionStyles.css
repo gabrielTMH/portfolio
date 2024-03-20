@@ -1,0 +1,198 @@
+/* SectionStyles.css */
+
+.section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.category {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px; /* Add margin-bottom to create space between each card */
+}
+
+.category h4 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.category p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* If you need any specific styling for links in the contact info, you can add it here */
+.category a {
+  color: #007bff; /* Example color for links */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.category a:hover {
+  text-decoration: underline; /* Adds underline on hover for better visibility */
+}
+.section-info {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-info h4 {
+  color: #007bff;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.section-info p {
+  color: #666;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* If you need any specific styling for links in the section info, you can add it here */
+.section-info a {
+  color: #007bff; /* Example color for links */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.section-info a:hover {
+  text-decoration: underline; /* Adds underline on hover for better visibility */
+}
+/* ContactStyles.css */
+
+.contact-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.contact-info {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h4 {
+  color: #007bff;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  color: #666;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+/* ContactStyles.css */
+
+.contact-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.contact-info {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h4 {
+  color: #007bff;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  color: #666;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+.experience-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.experience-title {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.experience-info {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.experience-details {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.experience-detail {
+  color: #333;
+}
